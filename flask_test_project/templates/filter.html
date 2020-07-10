@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤器</title>
+</head>
+<body>
+{# 禁止转义，此处为禁止<h1></h1>中的括号转义从而不识别该段html代码#}
+{{ msg | safe }}
+<br>
+{{ n1 | capitalize }}
+<br>
+{{ n1 | upper }}
+<br>
+{{ '%s is %d years old ' | format('Lily', 18) }}
+</body>
+</html>
