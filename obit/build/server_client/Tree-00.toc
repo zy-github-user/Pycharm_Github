@@ -1,0 +1,5 @@
+('/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/psutil-5.7.2-py3.8-macosx-10.9-x86_64.egg',
+ None,
+ {'*.py', '*.cpython-38-darwin.so', 'EGG-INFO', '*.pyc', '*.so', '*.abi3.so'},
+ 'DATA',
+ [])
